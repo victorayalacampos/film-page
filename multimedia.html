@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/slider-sinopsis.css" />
+    <script
+      src="https://kit.fontawesome.com/f008ec95f5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery-3.6.2.js"></script>
+
+
+    <!--SLIDER SNOPSIS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" href="css/estilos-cartas.css" />
+    <link rel="stylesheet" href="css/simple-lightbox.css" />
+    <title>James Bond - Sinopsis</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo007" href="index.html">
+        <img class="bond-logo" src="img/logo-header1svg.svg" alt=""
+      /></a>
+
+      <nav id="menu-grande">
+        <ul>
+          <li><a href="sinopsis.html">SINOPSIS</a></li>
+          <li><a href="casting.html">CASTING</a></li>
+          <li><a href="multimedia.html">MULTIMEDIA</a></li>
+        </ul>
+      </nav>
+
+      <nav id="menu-peque">
+        <ul>
+          <li class="btn-menu" ><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+          <li class="btn-menu" ><a href="index.html">INICIO</a></li>
+          <li class="btn-menu" ><a href="sinopsis.html">SINOPSIS</a></li>
+          <li class="btn-menu" ><a href="casting.html">CASTING</a></li>
+          <li class="btn-menu" ><a href="multimedia.html">MULTIMEDIA</a></li>
+        </ul>
+      </nav>
+
+      <div class="clear"></div>
+    </header>
+
+    <main id="multimedia">
+      <div class="gallery">
+        <div class="gallery-inside">
+          <a href="img/rodaje1-grande.jpg"
+            ><img src="img/rodaje1.jpg" alt="" title=""
+          /></a>
+          <a href="img/rodaje7-grande.jpg"
+            ><img src="img/rodaje7.jpg" alt="" title=""
+          /></a>
+        </div>
+        <div class="gallery-inside">
+          <a href="img/rodaje3-grande.jpg"
+            ><img src="img/rodaje3.jpg" alt="" title=""
+          /></a>
+          <a href="img/rodaje4-grande.jpg"
+            ><img src="img/rodaje4.jpg" alt="" title=""
+          /></a>
+        </div>
+      </div>
+      <div class="gallery">
+        <div class="gallery-inside">
+          <a href="img/rodaje5-grande.jpg"
+            ><img src="img/rodaje5.jpg" alt="" title=""
+          /></a>
+          <a href="img/rodaje2.jpg"
+            ><img src="img/rodaje2.jpg" alt="" title=""
+          /></a>
+        </div>
+        <div class="gallery-inside">
+          <a href="img/rodaje6.jpg"
+            ><img src="img/rodaje6.jpg" alt="" title=""
+          /></a>
+
+          <a href="img/rodaje8.jpg"
+            ><img src="img/rodaje8.jpg" alt="" title=""
+          /></a>
+        </div>
+      </div>
+      <div id="video-gallery">
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer-multimedia">
+      <p>
+        Pagina Web creada por <a href="#">Victor Ayala</a> para
+        <a href="https://www.aulacreactiva.com/">Aula Creactiva</a>
+      </p>
+    </footer>
+
+    <script src="js/toggle-menu-peque.js"></script>
+    <script src="js/simple-lightbox.js"></script>
+    <script>
+      (function() {
+          var $gallery = new SimpleLightbox('.gallery a', {});
+      })();
+  </script>
+  </body>
+</html>
